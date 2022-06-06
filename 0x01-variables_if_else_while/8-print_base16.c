@@ -7,10 +7,10 @@
 
 int main(void)
 {
-	int a = 252;
+	int a = 48;
 	int lower = 'a';
 
-	while (a <= 261)
+	while (a <= 57)
 	{
 		putchar(a);
 		a += 1;
