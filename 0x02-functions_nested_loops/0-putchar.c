@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * main -program to print _putchar followed by new line
@@ -9,12 +8,11 @@
 int main(void)
 {
 	int a = 0;
-	char str_hbt[9] = "Holberton";
+	char str_hbt[9] = "_putchar";
 
-	while (a < 9)
+	for (a = 0; 0 < 8; a++)
 	{
 		_putchar(str_hbt[a]);
-		a += 1;
 	}
 	_putchar('\n');
 	return (0);
