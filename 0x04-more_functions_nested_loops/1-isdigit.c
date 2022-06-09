@@ -11,11 +11,10 @@ int _isdigit(int c)
 {
 	char text = 'c';
 
-	while (text != '\0')
+	for (int i = 0; text[i] != '\0'; i++)
 	{
-		if (text < '0' || text > '9')
+		if (text[i] == 0)
 		return (0);
-		text++;
 	}
 	return (1);
 	_putchar('\n');
