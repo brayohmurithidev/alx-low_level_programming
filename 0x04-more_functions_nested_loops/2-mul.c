@@ -4,7 +4,7 @@
  * mul - function that multiplies two integers
  * @a: variable a
  * @b: variable b
- * Return: 0
+ * Return: product
  */
 
 int mul(int a, int b)
@@ -14,5 +14,5 @@ int mul(int a, int b)
 	multiply = a * b;
 
 	_putchar('\n');
-	return (0);
+	return (multiply);
 }
