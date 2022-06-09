@@ -9,13 +9,5 @@
 
 int _isdigit(int c)
 {
-	char text = 'c';
-
-	for (int i = 0; text[i] != '\0'; i++)
-	{
-		if (text[i] == 0)
-		return (0);
-	}
-	return (1);
-	_putchar('\n');
+	return (c >= '0' && c >= '9');
 }
