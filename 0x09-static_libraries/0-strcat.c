@@ -7,6 +7,7 @@
  * Return: returns void
  */
 
+
 char *_strcat(char *dest, char *src)
 {
 	int i = 0;
@@ -14,11 +15,15 @@ char *_strcat(char *dest, char *src)
 
 	while (*(dest + i) != '\0')
 		i++;
+
 	for (count = 0; *(src + count) != '\0'; count++)
 	{
 		*(dest + i) = *(src + count);
 		i++;
+
 	}
 	*(dest + i) = '\0';
+
 	return (dest);
+
 }
