@@ -1,4 +1,4 @@
-/**
+/*
 * File: 1-listint_len.c
 * Auth: Brian Murithi
 */
